@@ -1,0 +1,494 @@
+.Main{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+.Cover {
+  display: flex;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.sideImage {
+  width: 50%;
+  height: 100%;
+  border: 2px solid black;
+  position: relative;
+}
+
+.sideImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: aqua;
+}
+
+.Pagination button {
+  margin: 0 5px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(184, 203, 206);
+}
+
+/******************************************** WHOLE LEFT PART *****************************************/
+.DynamicFile{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-left: 4%;
+  width: 90%;
+  height: 80%;
+}
+
+.fileImageSet{
+  background-image: url(./assets/file2.avif);
+  height: 80%;
+  width: 100%;
+}
+
+.PageSlide{
+  display: flex;
+  flex-direction: column;
+  /* background-color: blueviolet; */
+  /* background-image: url("./assets/file.avif"); */
+  height: 100vh;
+}
+
+.InnerPage2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+  /* border-radius: 2%; */
+  border: 1px solid black;
+}
+
+.textpro{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 4%;
+  height: 15%;  
+  background-color: rgb(199, 199, 199);
+}
+
+.FileUpper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+}
+
+.FileUpper label{
+  height: 98%;
+  font-size: 18px;
+  padding: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.FileUpper label span {
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.FileLower {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%; 
+}
+
+.btn1{
+  background-color: rgb(255, 42, 42);
+  color: white;
+}
+
+.btn2{
+  background-color: rgb(131, 255, 42);
+  color: rgb(0, 0, 0);
+}
+
+/******************************************** WHOLE RIGHT PART *****************************************/
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+
+
+
+
+
+/*************************************** UPPER SIDE OF RIGHT PART *****************************************/
+.FileSender{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 75vh;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgb(160, 189, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.FileSenderNew{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 88%;
+    height: 65vh;
+    margin-left: 5%;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.FileSender textarea{
+  width: 90%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.lowerfade{
+  display: flex;
+  flex-direction: inherit;
+  width: 100%;
+  height: 20%;
+}
+
+.lowerfade button {
+  width: 20%;
+  max-height: 50%;
+  margin-left: 4.5%;
+  margin-top: 3%;
+  margin-right: 70%;
+  margin-bottom: 1%;
+}
+
+.innnerfade{
+  display: flex;
+  flex-direction: row;
+  max-height: 40%;
+  border-radius: 1%;
+  align-items: center;
+  background-color: lightgray;
+  justify-content:center  ;
+}
+
+
+
+
+
+
+/*************************************** LOWER SIDE OF RIGHT PART *****************************************/
+
+
+.FileReciver{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border: 2px solid black;
+  width: 579px;
+  margin-left: 0%;
+  height: 60vh;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: rgb(253, 255, 163);
+}
+
+.FilerecieveInner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.FilerecieveInner h4{
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.FilerecieveInner input{
+  width: 65%;
+  height: 5vh;
+  border-radius: 8px;
+  margin-top: 0%;
+  margin-left: 10px;
+  margin-right: 4%;
+}
+
+
+.FetchedData{
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  height: 80%;
+  /* border: 2px solid black; */
+}
+
+.FetchedData textarea{
+  width: 100%;
+  height: 54vh;
+}
+
+.dynoData{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.dynoData h3{
+  margin-left: 2px;
+}
+
+.dynoData button{
+  margin-top: 10px;
+}
+
+.txthandle{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.txthandle h3{
+  font-size: 25px;
+}
+
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: rgb(81, 245, 16);
+}
+
+.codeGet{
+  display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-height: 80vh;
+    max-width: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.fileGet{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black ;
+  border-radius: 10px;
+  max-height: 80vh;
+  max-width: 70%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.innerfileget{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.innerfileget input{
+  width: 60%;
+  height: 50%;
+  margin-left: 3%;
+  border-radius: 7px;
+}
+
+/* .downloadicon{
+  width: 10%;
+  border: 1px solid black;
+  padding: 1%;
+} */
+
+.download-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 1%;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: background-color 0.3s ease;
+}
+
+.download-icon-container2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 0%;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: background-color 0.3s ease;
+}
+
+
+.download-icon-container:hover {
+  background-color: lightgray;
+}
+
+.download-icon {
+  width: 70%;
+  height: auto;
+  color: black;
+  cursor: pointer;
+}
+
+.fileImgGet{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.fileImgGet img{
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+.filedetail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.file-code {
+  background-color: rgb(217, 255, 65);
+}
+
+
+.PageName{
+  background-color: rgb(118, 118, 118);
+  justify-content: center;
+  align-items: center;
+}
+
+.PageName h3{
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************** Media query for mobile devices **************************************/
+@media (max-width: 768px) {
+  .Cover {
+    flex-direction: column;
+  }
+
+  .sideImage {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .mainContent {
+    width: 100%;
+    height: 50vh; 
+  }
+}
+
+
+
+
+
+/*****************************************  SlideShow-Demo ********************************************/
+
+.slider-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 109px;
+    width: 36px;
+    border: none;
+    background-color: rgba(235, 235, 235, 0.5);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
